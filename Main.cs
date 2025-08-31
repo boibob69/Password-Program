@@ -41,8 +41,7 @@ namespace PasswordNamespace
             if (Input == password)
             {
                 hasGuessedCorrectly = true;
-                Console.WriteLine("Correct! Enjoy the mod");
-                Process.Start("https://www.mediafire.com/file/hd26dm1b5tq5trd/Pokruk.sCameraMod.dll/file/download");
+                Console.WriteLine("Correct!");
             }
             else
             {
@@ -57,8 +56,7 @@ namespace PasswordNamespace
                 if (secondGuess == password)
                 {
                     hasGuessedCorrectly = true;
-                    Console.WriteLine("Correct! Enjoy the mod");
-                    Process.Start("https://www.mediafire.com/file/hd26dm1b5tq5trd/Pokruk.sCameraMod.dll/file/download");
+                    Console.WriteLine("Correct!");
                     break;
                 }
                 else
